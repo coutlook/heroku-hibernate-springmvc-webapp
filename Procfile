@@ -1,1 +1,1 @@
-web: sh mk-webapp/target/bin/webapp
+web: sh herokudemo-webapp/target/bin/webapp
