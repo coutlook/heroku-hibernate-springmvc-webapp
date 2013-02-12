@@ -46,17 +46,17 @@ Congratulations! Your web app should now be up and running on Heroku. Open it in
 	
 ## Do some load testing on your app
 
-	### Provision the Blitz addon
+### Provision the Blitz addon
 	
 	:::term
     $ heroku addons:add blitz:250
 	
-	### Open Blitz UI
+### Open Blitz UI
 	
 	:::term
     $ heroku addons:open blitz
 	
-	### Run your load test
+### Run your load test
 	
 Your application has a mapping that accepts a "name" parameter on the overview page.
 The given name will be added to the database.
