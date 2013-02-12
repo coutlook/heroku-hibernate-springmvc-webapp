@@ -56,14 +56,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<artifactId>log4j</artifactId>
-			<groupId>log4j</groupId>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-		</dependency>
-		<dependency>
 			<artifactId>hibernate-validator</artifactId>
 			<groupId>org.hibernate</groupId>
 		</dependency>
@@ -86,21 +78,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 				<groupId>org.springframework</groupId>
 				<version>${spring.version}</version>
 				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<artifactId>log4j</artifactId>
-				<groupId>log4j</groupId>
-				<version>1.2.17</version>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-log4j12</artifactId>
-				<version>1.6.2</version>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-api</artifactId>
-				<version>1.6.2</version>
 			</dependency>
 			<dependency>
 				<artifactId>hibernate-validator</artifactId>
