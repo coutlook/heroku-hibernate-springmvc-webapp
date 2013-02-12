@@ -43,10 +43,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 	</build>
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-core</artifactId>
 		</dependency>
@@ -55,10 +51,10 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 			<artifactId>spring-context</artifactId>
 		</dependency>
 		<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-test</artifactId>
-				<scope>test</scope>
-			</dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 		<dependency>
 			<artifactId>log4j</artifactId>
 			<groupId>log4j</groupId>
@@ -66,10 +62,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
-		</dependency>
-		<dependency>
-			<artifactId>guava</artifactId>
-			<groupId>com.google.guava</groupId>
 		</dependency>
 		<dependency>
 			<artifactId>hibernate-validator</artifactId>
@@ -90,44 +82,10 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 				<type>test-jar</type>
 			</dependency>
 			<dependency>
-				<groupId>joda-time</groupId>
-				<artifactId>joda-time</artifactId>
-				<version>2.1</version>
-			</dependency>
-			<dependency>
-				<artifactId>mockito-all</artifactId>
-				<groupId>org.mockito</groupId>
-				<version>1.9.0</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
 				<artifactId>spring-test</artifactId>
 				<groupId>org.springframework</groupId>
 				<version>${spring.version}</version>
 				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>junit</groupId>
-				<artifactId>junit</artifactId>
-				<version>4.10</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.seleniumhq.webdriver</groupId>
-				<artifactId>webdriver-htmlunit</artifactId>
-				<version>${version.webdriver}</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<groupId>org.seleniumhq.webdriver</groupId>
-				<artifactId>webdriver-support</artifactId>
-				<version>${version.webdriver}</version>
-				<scope>test</scope>
-			</dependency>
-			<dependency>
-				<artifactId>guava</artifactId>
-				<groupId>com.google.guava</groupId>
-				<version>12.0</version>
 			</dependency>
 			<dependency>
 				<artifactId>log4j</artifactId>
