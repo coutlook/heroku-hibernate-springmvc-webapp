@@ -63,3 +63,6 @@ The given name will be added to the database.
 
 This allows you to do a simple load test with the following url:
 http://<your-app-name>.herokuapp.com/web/overview?name=TestName
+
+After running your load test you should have somewhere around 6-7k entries in your Name table.
+Before running a new test, you should delete all entries from the overview page. This is due to postgres dev database 10k row limit.
