@@ -20,4 +20,12 @@ public class NameServiceImpl extends EntityServiceImpl<Name> implements NameServ
 		this.nameRepository = nameRepository;
 		repository = nameRepository;
 	}
+	
+	/**
+	 * {@inheritDoc}
+	 */
+	@Override
+	public void deleteAll() {
+		nameRepository.deleteAll();
+	}
 }

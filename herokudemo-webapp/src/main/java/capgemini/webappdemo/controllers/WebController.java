@@ -89,10 +89,7 @@ public class WebController {
 			Errors errors, Model model) {
 		
 		// Delete them all
-		List<Name> names = nameService.getAll();
-		for(Name name : names){
-			nameService.remove(name);
-		}
+		nameService.deleteAll();
 		
 		// Go back to web/overview
 		return redirectTo(URL_OVERVIEW);
