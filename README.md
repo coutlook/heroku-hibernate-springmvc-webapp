@@ -6,6 +6,10 @@ Its primary use is as an example app for a Heroku 101 course.
 Follow instructions below to clone this repository and get your app running on Heroku!
 There is also a section describing how you can use Heroku addons such as Blitz for load testing.
 
+## Prerequisites
+
+It is assumed that you have installed the Heroku Toolbelt: https://toolbelt.heroku.com/
+
 ## Clone this repository
 
 Use for example Git Bash and navigate to a directory where you keep your code.
